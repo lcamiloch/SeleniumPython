@@ -1,0 +1,20 @@
+[MESSAGES CONTROL]
+
+# Enable the message, report, category or checker with the given id(s). You can
+# either give multiple identifier separated by comma (,) or put this option
+# multiple time.
+#enable=
+
+# Disable the message, report, category or checker with the given id(s). You
+# can either give multiple identifier separated by comma (,) or put this option
+# multiple time (only on the command line, not in the configuration file where
+# it should appear only once).
+#disable=C0116,R0801,R0904
+
+[FORMAT]
+max-line-length=120
+
+[MASTER]
+init-hook='import sys; sys.path.append("demonotebook_e2e")'
+
+disable=too-few-public-methods
